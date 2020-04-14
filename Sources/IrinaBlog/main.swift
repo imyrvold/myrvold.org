@@ -8,6 +8,7 @@ struct IrinaBlog: Website {
     enum SectionID: String, WebsiteSectionID {
         // Add the sections that you want your website to contain here:
         case posts
+        case y2018 = "2018"
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
