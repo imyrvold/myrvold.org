@@ -9,6 +9,7 @@ struct IrinaBlog: Website {
         // Add the sections that you want your website to contain here:
         case posts
         case y2018 = "2018"
+        case y2019 = "2019"
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
