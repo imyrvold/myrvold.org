@@ -18,7 +18,7 @@ struct IrinaBlog: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://www.myrvold.org")!
+    var url = URL(string: "https://irina.myrvold.blog")!
     var name = "Блог Ирины"
     var description = "Моя жизнь в Норвегии как русский"
     var language: Language { .russian }
