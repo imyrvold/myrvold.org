@@ -1,20 +1,22 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
     name: "IrinaBlog",
+    platforms: [
+        .macOS(.v12)
+    ],
     products: [
         .executable(name: "IrinaBlog", targets: ["IrinaBlog"])
     ],
     dependencies: [
-        .package(url: "https://github.com/johnsundell/publish.git", from: "0.7.0"),
-        .package(url: "https://github.com/dinsen/brianpublishtheme", from: "0.1.0")
+        .package(name: "Publish", url: "https://github.com/johnsundell/publish.git", from: "0.9.0")
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "IrinaBlog",
-            dependencies: ["Publish", "BrianPublishTheme"]
+            dependencies: ["Publish"]
         )
     ]
 )

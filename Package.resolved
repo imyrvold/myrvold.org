@@ -2,21 +2,21 @@
   "object": {
     "pins": [
       {
-        "package": "BrianPublishTheme",
-        "repositoryURL": "https://github.com/dinsen/brianpublishtheme",
-        "state": {
-          "branch": null,
-          "revision": "03825d20c0d26e3638e65926c4ca6033e7df14fd",
-          "version": "0.1.0"
-        }
-      },
-      {
         "package": "Codextended",
         "repositoryURL": "https://github.com/johnsundell/codextended.git",
         "state": {
           "branch": null,
           "revision": "8d7c46dfc9c55240870cf5561d6cefa41e3d7105",
           "version": "0.3.0"
+        }
+      },
+      {
+        "package": "CollectionConcurrencyKit",
+        "repositoryURL": "https://github.com/johnsundell/collectionConcurrencyKit.git",
+        "state": {
+          "branch": null,
+          "revision": "b4f23e24b5a1bff301efc5e70871083ca029ff95",
+          "version": "0.2.0"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/johnsundell/publish.git",
         "state": {
           "branch": null,
-          "revision": "1402af3cbe18df03fb6df701fdcf51471f98d0ff",
-          "version": "0.8.0"
+          "revision": "1c8ad00d39c985cb5d497153241a2f1b654e0d40",
+          "version": "0.9.0"
         }
       },
       {
