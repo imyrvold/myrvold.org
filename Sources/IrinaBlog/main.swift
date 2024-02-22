@@ -14,6 +14,7 @@ struct IrinaBlog: Website {
         case y2021 = "2021"
         case y2022 = "2022"
         case y2023 = "2023"
+        case y2024 = "2024"
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
