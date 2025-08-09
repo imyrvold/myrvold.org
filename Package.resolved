@@ -38,6 +38,15 @@
         }
       },
       {
+        "package": "IvanPublishTheme",
+        "repositoryURL": "https://github.com/imyrvold/IvanPublishTheme.git",
+        "state": {
+          "branch": null,
+          "revision": "2b26072099278d126ee4a8750860a22554700350",
+          "version": "1.1.2"
+        }
+      },
+      {
         "package": "Plot",
         "repositoryURL": "https://github.com/johnsundell/plot.git",
         "state": {
